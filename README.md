@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# React Native Metin Ters Çevirme Uygulaması
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native ve Expo kullanılarak geliştirilmiş, kullanıcı tarafından girilen metni tersine çeviren basit bir mobil uygulamadır. Uygulama, React Native'in temel bileşenlerini, state yönetimini, olayları ve test süreçlerini öğrenmek amacıyla geliştirilmiştir. Proje, modern Expo projelerinde yaygın olan Expo Router ile dosya tabanlı yönlendirme yapısını kullanmaktadır.
 
-## Get started
+## ✨ Temel Özellikler
 
-1. Install dependencies
+* Kullanıcının metin girebileceği bir giriş alanı (`TextInput`).
+* Girilen metni ters çevirme işlemini başlatan bir buton (`Button`).
+* Giriş alanını ve sonucu temizleyen bir "Temizle" butonu (`Button`).
+* Ters çevrilmiş metnin gösterildiği bir metin alanı (`Text`).
+* Girilen metin için maksimum karakter sınırı (örn: 50) ve aşıldığında hata mesajı gösterimi.
+* Expo Router ile basit sekme tabanlı navigasyon yapısı (tek sekmeli).
 
-   ```bash
-   npm install
-   ```
+## 💻 Kullanılan Teknolojiler
 
-2. Start the app
+* **Çerçeve (Framework):** React Native (Expo SDK)
+* **Yönlendirme (Routing):** Expo Router
+* **Dil (Language):** TypeScript
+* **Test:**
+    * Jest (Test Çalıştırıcı)
+    * React Native Testing Library (Bileşen Test Kütüphanesi)
+* **Paket Yöneticisi:** npm veya yarn
 
-   ```bash
-    npx expo start
-   ```
+## 📂 Proje Yapısı
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Proje, Expo Router'ın dosya tabanlı yönlendirme sistemine uygun bir yapı kullanmaktadır:
